@@ -13,7 +13,6 @@ def delete(tasks):
             print(str(task_number) + ". " + current_task)
             task_number += 1
             index += 1
-        return tasks
 
         task_num = int(input("Введите номер задания для удаления: ")) - 1
         index = 0
